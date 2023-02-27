@@ -76,7 +76,6 @@ aportan colores y tamanios (px) de sombras */
     padding: 0; 
     overflow: hidden; 
     background-color: #e6ab2c;
-    width: 100%,
 }
 
 .marco li {
@@ -93,59 +92,47 @@ table {
 table, th, td {
     border: 1px solid white;
     border-collapse: collapse;
-} 
+}
 th, td {
     background-color: #96D4D4;
     padding: 5px;
     padding-left: 10px;
 }
 
-div.gallery {
-border: 1px solid #ccc;
+/**
+.button {
+    background-color: #e6cde0;
+    color: #e6cde0;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
 }
 
-div.gallery:hover {
-border: 1px solid #777;
+a:link {
+    color: #e6cde0;
+    background-color: transparent;
+    text-decoration: none;
 }
 
-div.gallery img {
-width: 90%;
-height: auto;
-padding: 10px;
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
 }
 
-div.desc {
-padding: 15px;
-text-align: center;
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
 }
-
-.responsive {
-padding: 0 6px;
-float: left;
-width: 19.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-.responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-}
-}
-
-@media only screen and (max-width: 500px) {
-.responsive {
-    width: 100%;
-}
-}
-
-.clearfix:after {
-content: "";
-display: table;
-clear: both;
-}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}*/
 
 /** Define el estilo del Footer */
-div.footer {
+.footer {
     color: #0a3f52;
     text-align: center;
     font-size: 28px;
