@@ -9,3 +9,7 @@ function cas() {
 function changeText(id) {
     id.innerHTML = "N/A. Please go to page in Spanish";
 }
+
+function enviar() {
+    alert("La información ya me fue enviada. A la brevedad me estaré comunicando contigo. MUCHAS GRACIAS!");
+}
